@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="FHIR Auth" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rukshn.github.io/fhir" />
+    <meta
+      property="og:image"
+      content="https://rukshn.github.io/fhir/fire-3.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +37,10 @@
             <p class="subtitle">
               A Robust Authenticaion Module For Your FHIR Server
             </p>
-            <a href="https://forms.gle/8NYoJU4ERKMcTEhB7" class="button is-medium is-warning is-light">
+            <a
+              href="https://forms.gle/8NYoJU4ERKMcTEhB7"
+              class="button is-medium is-warning is-light"
+            >
               Request A Demo
             </a>
             <a href="#features" class="button is-medium is-info is-light"
@@ -38,7 +48,7 @@
             >
           </div>
           <div class="column">
-             <img src="fire-3.png" id="logo"> 
+            <img src="fire-3.png" id="logo" />
           </div>
         </div>
       </div>
@@ -82,6 +92,14 @@
           <div class="column">
             <h1 class="is-size-3">FAQs</h1>
             <div class="content">
+              <p><strong>What is FHIR Auth?</strong></p>
+              <p>
+                FHIR Auth is an authentication module for FHIR servers, it
+                allows FHIR servers to validate the incoming requests to the
+                FHIR server and allows only authenticated requests to
+                communicate with the FHIR server depending on the given
+                privilages.
+              </p>
               <p><strong>What is FHIR?</strong></p>
               <p>
                 Fast Healthcare Interoperability Resources is a standard which
@@ -92,7 +110,11 @@
                 >
               </p>
               <p><strong>What is a FHIR server?</strong></p>
-              <p>FHIR server accepts FHIR requests, validates, parse and stores them. A FHIR server will also send FHIR requests to another FHIR server with healthcare data.</p>
+              <p>
+                FHIR server accepts FHIR requests, validates, parse and stores
+                them. A FHIR server will also send FHIR requests to another FHIR
+                server with healthcare data.
+              </p>
               <p><strong>Does FHIR Auth store your FHIR data?</strong></p>
               <p>
                 No FHIR Auth does not store any incoming FHIR data, nor it
