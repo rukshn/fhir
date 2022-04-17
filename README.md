@@ -1,5 +1,5 @@
 ## What is FHIR Auth?
-![FHIR Auth](https://imgur.com/2d6TQtq)
+![FHIR Auth](https://i.imgur.com/2d6TQtq.png)
 FHIR Auth is a robust authentication service for FHIR servers. 
 FHIR Auth helps you to validate incoming requests to your FHIR server and allows only privileged request to communicate with your FHIR server. 
 
