@@ -12,3 +12,5 @@ FHIR Auth use JWT open standard to generate authentication tokens.
 ## How you can grant privileges?
 In FHIR Auth, you can create applications and grant them privileges, depending on the requirements.
 After creating the application in the FHIR Auth dashboard, you can provide the generated token and secret to the developers who want to communicate with your FHIR server.
+
+Fhir Auth provides an GUI for you to create applications and granting privilages for them.
